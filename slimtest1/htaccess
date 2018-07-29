@@ -1,0 +1,4 @@
+ReweiteEngine on
+ReweiteCond %{REQUESR_FILENAME} !-d
+ReweiteCond %{REQUESR_FILENAME} !-f
+ReweiteRule . index.php[L]
